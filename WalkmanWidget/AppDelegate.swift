@@ -20,9 +20,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
         if let button = statusItem.button {
             button.image = NSImage(systemSymbolName: "opticaldisc.fill", accessibilityDescription: "Walkman")
-            button.action = #selector(togglePanel)
-            button.target = self
         }
+
+        let menu = NSMenu()
+        menu.addItem(NSMenuItem(title: "Show/Hide", action: #selector(togglePanel), keyEquivalent: "w"))
+        menu.addItem(NSMenuItem.separator())
+        menu.addItem(NSMenuItem(title: "Quit WalkmanWidget", action: #selector(quitApp), keyEquivalent: "q"))
+        statusItem.menu = menu
+    }
+
+    @objc private func quitApp() {
+        playbackState.pause()
+        NSApp.terminate(nil)
     }
 
     private func setupPanel() {
