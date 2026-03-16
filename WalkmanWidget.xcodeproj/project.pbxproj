@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		055575BA5CF1C600A17DB197 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54089D3DA273840BCE9F608A /* SettingsView.swift */; };
+		0FC71609E1BA89D2520025CB /* SpotifyBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DAA9D4A2BEB3EE2962CF04 /* SpotifyBridge.swift */; };
+		1FCD67ABBAF73542F181928F /* tape_hiss.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9224A0439FFC64DE4D32EB6D /* tape_hiss.wav */; };
+		1FD2E5A3895649B06B493B7C /* reel_right.png in Resources */ = {isa = PBXBuildFile; fileRef = E48EA72DA54A333E6876BC2E /* reel_right.png */; };
+		3BECA545D627FDD13275C743 /* WalkmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782CAA7106785C4608E6D26A /* WalkmanView.swift */; };
+		4A408EE966AB031A548C4022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AF2B91525317B3EB16FD33 /* AppDelegate.swift */; };
+		58E081A7761DA457316B252D /* reel_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D8FAC310B86CFC1F19E75A2 /* reel_left.png */; };
+		5D0DE0732C65F6CCBE96FDE5 /* cassette_animated.gif in Resources */ = {isa = PBXBuildFile; fileRef = A0F4AD1B6FACCE68873C7D9C /* cassette_animated.gif */; };
+		64073759E7C363A767FCB12F /* TransportButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66922ED08E9EFB218D1F967 /* TransportButtonsView.swift */; };
+		652650A7718EB99650A98B2D /* TapeFuzzEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C6BD5AC983C52081AE883 /* TapeFuzzEngine.swift */; };
+		74D6B6198379FE739F218965 /* CassetteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA093ABDD193B96DC2C64E6 /* CassetteView.swift */; };
+		807C9C7F63376EDDC37D62AA /* WalkmanWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557E161670EFAFAC3AB8856D /* WalkmanWidgetApp.swift */; };
+		82450741AE59FC79E95B9B04 /* walkman_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F13BC5AC987D9BBF30B3B91 /* walkman_bg.png */; };
+		84FC956F55CC344D4D916758 /* LCDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB02214626C1640E24007B4 /* LCDView.swift */; };
+		9259D69D85730B65760E4631 /* NSPanelSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61969D5838B13651022436F4 /* NSPanelSetup.swift */; };
+		A55E144279CAFD88EA434CD5 /* PlaybackState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C689E17B270AE1781A617A /* PlaybackState.swift */; };
+		B66BF4826F5EFC9458EB58EB /* CassetteSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9857DC0DD5A013341BA9C /* CassetteSide.swift */; };
+		C6AF025DCCA9C4F37A576BFC /* cassette_no_reels.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E336384575B88B471FF541 /* cassette_no_reels.png */; };
+		ED89E7D92F800B4BCB415A49 /* FuzzKnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65E010F0D94DB8AEE7FEA0 /* FuzzKnobView.swift */; };
+		EF7F802D63E55F6BC1FD9883 /* cassette_window.png in Resources */ = {isa = PBXBuildFile; fileRef = EF754AA2AE2C97492690A7F8 /* cassette_window.png */; };
+		F011D6208A40041115092BA2 /* SpotifyTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A815EB18EDEDEF2A9FC6F8 /* SpotifyTrack.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F13BC5AC987D9BBF30B3B91 /* walkman_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = walkman_bg.png; sourceTree = "<group>"; };
+		4A65E010F0D94DB8AEE7FEA0 /* FuzzKnobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuzzKnobView.swift; sourceTree = "<group>"; };
+		4C9C6BD5AC983C52081AE883 /* TapeFuzzEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapeFuzzEngine.swift; sourceTree = "<group>"; };
+		4E061C59D059BCD4987FE974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		54089D3DA273840BCE9F608A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		557E161670EFAFAC3AB8856D /* WalkmanWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkmanWidgetApp.swift; sourceTree = "<group>"; };
+		5D8FAC310B86CFC1F19E75A2 /* reel_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reel_left.png; sourceTree = "<group>"; };
+		61969D5838B13651022436F4 /* NSPanelSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPanelSetup.swift; sourceTree = "<group>"; };
+		782CAA7106785C4608E6D26A /* WalkmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkmanView.swift; sourceTree = "<group>"; };
+		79C9857DC0DD5A013341BA9C /* CassetteSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassetteSide.swift; sourceTree = "<group>"; };
+		86C689E17B270AE1781A617A /* PlaybackState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackState.swift; sourceTree = "<group>"; };
+		87E336384575B88B471FF541 /* cassette_no_reels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cassette_no_reels.png; sourceTree = "<group>"; };
+		8C008D3BE87B53865DA3983F /* WalkmanWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WalkmanWidget.entitlements; sourceTree = "<group>"; };
+		9224A0439FFC64DE4D32EB6D /* tape_hiss.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tape_hiss.wav; sourceTree = "<group>"; };
+		9C5B1FD3B447A863A7428580 /* WalkmanWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkmanWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F4AD1B6FACCE68873C7D9C /* cassette_animated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cassette_animated.gif; sourceTree = "<group>"; };
+		B66922ED08E9EFB218D1F967 /* TransportButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportButtonsView.swift; sourceTree = "<group>"; };
+		C6AF2B91525317B3EB16FD33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9DAA9D4A2BEB3EE2962CF04 /* SpotifyBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyBridge.swift; sourceTree = "<group>"; };
+		E48EA72DA54A333E6876BC2E /* reel_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reel_right.png; sourceTree = "<group>"; };
+		E4A815EB18EDEDEF2A9FC6F8 /* SpotifyTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyTrack.swift; sourceTree = "<group>"; };
+		EAB02214626C1640E24007B4 /* LCDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCDView.swift; sourceTree = "<group>"; };
+		EF754AA2AE2C97492690A7F8 /* cassette_window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cassette_window.png; sourceTree = "<group>"; };
+		FAA093ABDD193B96DC2C64E6 /* CassetteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassetteView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		412717438D08FFA2F26F4D48 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79C9857DC0DD5A013341BA9C /* CassetteSide.swift */,
+				E4A815EB18EDEDEF2A9FC6F8 /* SpotifyTrack.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4306628271C8E571FE176D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C5B1FD3B447A863A7428580 /* WalkmanWidget.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		439BB307800FBD160E1760D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAA093ABDD193B96DC2C64E6 /* CassetteView.swift */,
+				4A65E010F0D94DB8AEE7FEA0 /* FuzzKnobView.swift */,
+				EAB02214626C1640E24007B4 /* LCDView.swift */,
+				54089D3DA273840BCE9F608A /* SettingsView.swift */,
+				B66922ED08E9EFB218D1F967 /* TransportButtonsView.swift */,
+				782CAA7106785C4608E6D26A /* WalkmanView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BCA5FFE2A9ACDED50A88400 = {
+			isa = PBXGroup;
+			children = (
+				91FA653C1ED22F78ACCB7DC5 /* WalkmanWidget */,
+				4306628271C8E571FE176D96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91FA653C1ED22F78ACCB7DC5 /* WalkmanWidget */ = {
+			isa = PBXGroup;
+			children = (
+				C6AF2B91525317B3EB16FD33 /* AppDelegate.swift */,
+				4E061C59D059BCD4987FE974 /* Info.plist */,
+				8C008D3BE87B53865DA3983F /* WalkmanWidget.entitlements */,
+				557E161670EFAFAC3AB8856D /* WalkmanWidgetApp.swift */,
+				E02612F46EA57AD1294FA18B /* Engine */,
+				412717438D08FFA2F26F4D48 /* Models */,
+				AB9A72D580AABD67435AC934 /* Resources */,
+				F9584132578FFFE9A052F9AC /* Utilities */,
+				439BB307800FBD160E1760D1 /* Views */,
+			);
+			path = WalkmanWidget;
+			sourceTree = "<group>";
+		};
+		AB9A72D580AABD67435AC934 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4AD1B6FACCE68873C7D9C /* cassette_animated.gif */,
+				87E336384575B88B471FF541 /* cassette_no_reels.png */,
+				EF754AA2AE2C97492690A7F8 /* cassette_window.png */,
+				5D8FAC310B86CFC1F19E75A2 /* reel_left.png */,
+				E48EA72DA54A333E6876BC2E /* reel_right.png */,
+				9224A0439FFC64DE4D32EB6D /* tape_hiss.wav */,
+				0F13BC5AC987D9BBF30B3B91 /* walkman_bg.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E02612F46EA57AD1294FA18B /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				86C689E17B270AE1781A617A /* PlaybackState.swift */,
+				C9DAA9D4A2BEB3EE2962CF04 /* SpotifyBridge.swift */,
+				4C9C6BD5AC983C52081AE883 /* TapeFuzzEngine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		F9584132578FFFE9A052F9AC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				61969D5838B13651022436F4 /* NSPanelSetup.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E3F8A490076EEF406A8DACB /* WalkmanWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0AD332B46244E619AC789F1 /* Build configuration list for PBXNativeTarget "WalkmanWidget" */;
+			buildPhases = (
+				5C88F970EC619A461EBF500E /* Sources */,
+				3E5DFAA2FB20AE75CA846B29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalkmanWidget;
+			packageProductDependencies = (
+			);
+			productName = WalkmanWidget;
+			productReference = 9C5B1FD3B447A863A7428580 /* WalkmanWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4DE881B6707BAAB3C77E294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = A5291F9101FF94C779068CC0 /* Build configuration list for PBXProject "WalkmanWidget" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7BCA5FFE2A9ACDED50A88400;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E3F8A490076EEF406A8DACB /* WalkmanWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E5DFAA2FB20AE75CA846B29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0DE0732C65F6CCBE96FDE5 /* cassette_animated.gif in Resources */,
+				C6AF025DCCA9C4F37A576BFC /* cassette_no_reels.png in Resources */,
+				EF7F802D63E55F6BC1FD9883 /* cassette_window.png in Resources */,
+				58E081A7761DA457316B252D /* reel_left.png in Resources */,
+				1FD2E5A3895649B06B493B7C /* reel_right.png in Resources */,
+				1FCD67ABBAF73542F181928F /* tape_hiss.wav in Resources */,
+				82450741AE59FC79E95B9B04 /* walkman_bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C88F970EC619A461EBF500E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A408EE966AB031A548C4022 /* AppDelegate.swift in Sources */,
+				B66BF4826F5EFC9458EB58EB /* CassetteSide.swift in Sources */,
+				74D6B6198379FE739F218965 /* CassetteView.swift in Sources */,
+				ED89E7D92F800B4BCB415A49 /* FuzzKnobView.swift in Sources */,
+				84FC956F55CC344D4D916758 /* LCDView.swift in Sources */,
+				9259D69D85730B65760E4631 /* NSPanelSetup.swift in Sources */,
+				A55E144279CAFD88EA434CD5 /* PlaybackState.swift in Sources */,
+				055575BA5CF1C600A17DB197 /* SettingsView.swift in Sources */,
+				0FC71609E1BA89D2520025CB /* SpotifyBridge.swift in Sources */,
+				F011D6208A40041115092BA2 /* SpotifyTrack.swift in Sources */,
+				652650A7718EB99650A98B2D /* TapeFuzzEngine.swift in Sources */,
+				64073759E7C363A767FCB12F /* TransportButtonsView.swift in Sources */,
+				3BECA545D627FDD13275C743 /* WalkmanView.swift in Sources */,
+				807C9C7F63376EDDC37D62AA /* WalkmanWidgetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		375035019E723DD4372A67CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WalkmanWidget/WalkmanWidget.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WalkmanWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dragontpe.WalkmanWidget;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6CE57EEE4A6CC00EEAFA7054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		71E0A7CFC46487E3DE75DFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WalkmanWidget/WalkmanWidget.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WalkmanWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dragontpe.WalkmanWidget;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		71EEE18B3036E61A9F9D2C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0AD332B46244E619AC789F1 /* Build configuration list for PBXNativeTarget "WalkmanWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E0A7CFC46487E3DE75DFB2 /* Debug */,
+				375035019E723DD4372A67CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A5291F9101FF94C779068CC0 /* Build configuration list for PBXProject "WalkmanWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71EEE18B3036E61A9F9D2C32 /* Debug */,
+				6CE57EEE4A6CC00EEAFA7054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4DE881B6707BAAB3C77E294 /* Project object */;
+}

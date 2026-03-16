@@ -1,0 +1,24 @@
+name: WalkmanWidget
+options:
+  bundleIdPrefix: com.dragontpe
+  deploymentTarget:
+    macOS: "13.0"
+  xcodeVersion: "15.0"
+settings:
+  base:
+    MACOSX_DEPLOYMENT_TARGET: "13.0"
+    SWIFT_VERSION: "5.9"
+targets:
+  WalkmanWidget:
+    type: application
+    platform: macOS
+    sources:
+      - WalkmanWidget
+    settings:
+      base:
+        INFOPLIST_FILE: WalkmanWidget/Info.plist
+        CODE_SIGN_ENTITLEMENTS: WalkmanWidget/WalkmanWidget.entitlements
+        PRODUCT_BUNDLE_IDENTIFIER: com.dragontpe.WalkmanWidget
+        GENERATE_INFOPLIST_FILE: false
+        CODE_SIGN_IDENTITY: "-"
+        ENABLE_HARDENED_RUNTIME: false
