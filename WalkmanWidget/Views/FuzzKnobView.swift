@@ -2,7 +2,7 @@ import SwiftUI
 
 struct FuzzKnobView: View {
     @EnvironmentObject var state: PlaybackState
-    @State private var baseLevel: Double = 0.3
+    @State private var baseLevel: Double = 0.08
 
     private var knobAngle: Double {
         return -135 + state.fuzzLevel * 270

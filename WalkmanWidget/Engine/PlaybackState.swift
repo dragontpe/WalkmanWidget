@@ -9,7 +9,7 @@ class PlaybackState: ObservableObject {
     @Published var currentTrack: SpotifyTrack?
     @Published var needsFlip = false
     @Published var isTapeEnd = false
-    @Published var fuzzLevel: Double = 0.3
+    @Published var fuzzLevel: Double = 0.08
     @Published var isFlipping = false
 
     @Published var fuzzEnabled: Bool = true {

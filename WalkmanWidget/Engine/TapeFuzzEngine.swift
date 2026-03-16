@@ -5,7 +5,7 @@ class TapeFuzzEngine {
     private var player: AVAudioPlayer?
     private var isRunning = false
 
-    var volume: Float = 0.3 {
+    var volume: Float = 0.08 {
         didSet {
             player?.volume = min(max(volume, 0), 1.0)
         }
