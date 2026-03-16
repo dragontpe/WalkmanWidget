@@ -43,6 +43,16 @@ struct SettingsView: View {
             }
             .buttonStyle(.borderedProminent)
             .controlSize(.small)
+
+            Divider()
+
+            Button("Quit WalkmanWidget") {
+                state.pause()
+                NSApp.terminate(nil)
+            }
+            .font(.system(size: 11))
+            .foregroundColor(.red)
+            .buttonStyle(.plain)
         }
         .padding()
         .frame(width: 260)
