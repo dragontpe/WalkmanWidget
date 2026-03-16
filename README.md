@@ -1,5 +1,7 @@
 # WalkmanWidget
 
+[**Download WalkmanWidget.dmg**](https://github.com/dragontpe/WalkmanWidget/releases/latest/download/WalkmanWidget.dmg)
+
 A floating macOS desktop widget that looks like a vintage cassette Walkman. Controls Spotify playback via AppleScript with a looping tape fuzz audio layer on top.
 
 ![Mixtape '94](WalkmanWidget/Resources/cassette_animated.gif)
@@ -99,4 +101,4 @@ WalkmanWidget/
 
 ## License
 
-Personal use only.
+MIT
