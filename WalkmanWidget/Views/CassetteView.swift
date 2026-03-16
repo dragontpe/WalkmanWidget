@@ -6,7 +6,7 @@ struct CassetteView: View {
 
     var body: some View {
         AnimatedCassetteNSView(isPlaying: state.isPlaying)
-            .aspectRatio(1764.0/1176.0, contentMode: .fit)
+            .aspectRatio(1756.0/1176.0, contentMode: .fit)
             .clipShape(RoundedRectangle(cornerRadius: 8))
             .overlay(
                 RoundedRectangle(cornerRadius: 8)
